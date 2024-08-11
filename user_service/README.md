@@ -24,7 +24,7 @@ poetry add fastapi uvicorn[standard] sqlmodel psycopg
 **=================================================================**
 
 ```shell
-user = User(**user.model_dump())
+user = User(**form_data.model_dump())
 ```
 **Note** # 1- The model_dump() method likely converts the 'user' instance to a dictionary. 2- Then, the dictionary is unpacked using ** and passed as keyword arguments 3- to create a new User instance.
 

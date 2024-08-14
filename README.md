@@ -14,7 +14,6 @@ DELETE: Used to remove a resource from the server.
 
 add drivers :mac
 ```shell
-mac
 poetry add fastapi uvicorn\[standard\] sqlmodel psycopg 
 ```
 

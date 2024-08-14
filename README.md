@@ -1,15 +1,5 @@
 ## E_Commerce Api
 
-**Methods**
-
-GET: Used to retrieve data from a server.
-
-POST: Used to send data to the server to create a new resource.
-
-PUT: Used to update or replace an existing resource.
-
-DELETE: Used to remove a resource from the server.
-
 **poetry commands**
 
 add drivers :mac
@@ -23,6 +13,16 @@ poetry add fastapi uvicorn[standard] sqlmodel psycopg
 ```
 
 **=================================================================**
+
+**Methods**
+
+GET: Used to retrieve data from a server.
+
+POST: Used to send data to the server to create a new resource.
+
+PUT: Used to update or replace an existing resource.
+
+DELETE: Used to remove a resource from the server.
 
 ```shell
 user = User(**form_data.model_dump())

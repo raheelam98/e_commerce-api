@@ -1,5 +1,19 @@
 ## User Service 
 
+**poetry commands**
+
+add drivers :mac
+```shell
+poetry add fastapi uvicorn\[standard\] sqlmodel psycopg 
+```
+
+add drivers :- window
+```shell
+poetry add fastapi uvicorn[standard] sqlmodel psycopg
+```
+
+**=================================================================**
+
 **Methods**
 
 GET: Used to retrieve data from a server.
@@ -10,18 +24,6 @@ PUT: Used to update or replace an existing resource.
 
 DELETE: Used to remove a resource from the server.
 
-**poetry commands**
-
-add drivers
-```shell
-mac
-poetry add fastapi uvicorn\[standard\] sqlmodel psycopg 
-
-window
-poetry add fastapi uvicorn[standard] sqlmodel psycopg 
-```
-
-**=================================================================**
 
 ```shell
 user = User(**form_data.model_dump())
